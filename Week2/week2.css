@@ -1,0 +1,64 @@
+.item
+{
+    background-color: tomato;
+    width : 25%;
+    float: left;
+    text-align: center;
+   
+}
+
+.parent img
+{
+    width: 100%;
+   
+}
+.clear-fix
+{
+    clear: both;
+}
+
+.service{
+    width: 50%;
+    float: left;
+    background-image: url('C:/Users/slayer/Desktop/frontend/Week1/Images/7563383.jpg');
+    background-size: 100% 100%;
+}
+.services img
+{
+    width: 100%;
+}
+.parent
+{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.profile
+{
+    margin: 10px auto;
+    
+   
+}   
+.profile img
+{
+    width: 10%;
+    border-radius: 50%;
+}
+.profile button{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.parent button
+{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}

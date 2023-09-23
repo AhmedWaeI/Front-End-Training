@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    position: relative;
+
+}
+body{
+    font-family: 'segoue ui light';
+}
+h1::after
+{
+    position: absolute;
+    content:"";
+    width:45%;
+    right: 0px;
+    height: 2px;
+    background-color: black;
+    top:50%;
+}
+h1::before
+{
+    position: absolute;
+    content:"";
+    width:45%;
+    left: 0px;
+    height: 2px;
+    background-color: black;
+    top:50%;
+}
+h2{
+    width: 5%;
+    padding: 20px;
+    text-align: center;
+    border: solid 10px;
+    border-color: black;
+    position:relative;
+}
+h2::after
+{
+    content:"";
+    position: absolute;
+    background-color: white;
+    width:30%;
+    height:50px;
+    top:80%;
+    left: 15%;
+}
+h2::before
+{
+    content:"";
+    position: absolute;
+    background-color: black;
+    width:4px;
+    height:50px;
+    top:80%;
+    left: 27%;
+    z-index: 1;
+}
+.parent
+{   
+    margin:50px auto ;
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    background-image: url("C:/Users/slayer/Desktop/frontend/Week1/images/1313919.jpg");
+    background-size: cover;
+    background-position: center center;
+    border: solid 10px;
+    border-color: black;
+    text-align: center;
+    overflow:hidden;
+    box-shadow: 16px 15px 25px 5px black;
+
+}
+.all{
+    /*transition: opacity 0.5s , transform 0.5s;*/
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s ;
+}
+.all .bar
+{
+    
+
+    position: relative;
+    transition:left 0.5s;
+    width:100%;
+    background-color: gray;
+    height:15%;
+    text-align: center;
+    font-size: 35px;
+    left:150%;
+
+
+
+}
+.all .paragraph
+{   
+    position: relative;
+    transition: left 0.5s 0.5s;
+    padding-top: 25px;
+    font-size: 25px;
+    left:150%;
+
+
+}
+.paragraph p
+{
+    color: white;
+}
+.parent:hover .bar,
+.parent:hover .paragraph
+{
+    left:0;
+   /* opacity: 1; 
+    transform: rotate(360deg);*/
+}
+.parent:hover .all{opacity:1;}
+.animation
+{
+    width:10%;
+    position: relative;
+    animation-name:animation;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+.animation img
+{
+    width:100%;
+   
+}
+@keyframes animation
+{
+    0%{ left:0}
+    50%{left:90% ;transform: rotateY(0deg);}
+    51%{transform: rotateY(180deg);}
+    100%{left:0 ;transform: rotateY(180deg);}
+    
+}

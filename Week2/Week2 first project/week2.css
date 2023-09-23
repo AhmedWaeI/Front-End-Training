@@ -1,0 +1,121 @@
+.Background
+{
+    background-image: url("C:/Users/slayer/Desktop/frontend/Week1/Images/brick-wall-1834784_1280.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 70px;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Background h1
+{
+    color: white;
+    font-size: 60px;
+  
+}
+.Background button{
+    margin-top: 25px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+      background-color: black;
+      color: white;
+    border-radius: 25px;
+    transition: 0.5s  background-color, 0.5s  color; /* duration delay type(ease in ease out and 2 more) which property the transition applies on*/
+}
+.Background button:hover
+{
+    background-color: white;
+    color: black;
+   
+}
+
+.Background p
+{
+    font-size: 48px;
+    font-family: "Dancing Script", cursive;
+    color: white;
+}
+
+.meal
+{
+    width:25%;
+    float: left;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+}
+.meal img
+{
+    width: 75%;
+    border-radius: 50%;
+    
+  
+}
+.clearfix
+{
+  
+    clear: both;
+    
+}
+.meals
+{
+    margin: 50px 0px;
+}
+.meal p
+{
+    padding:20px 0px;
+    font-size: 20px;
+}
+.meal h2
+{
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+.meal .line
+{
+    background-color: grey;
+    width: 200px;
+    height: 5px;
+    margin: 10px auto;
+}
+a{
+ 
+    text-decoration: none;
+    color: white;
+}
+.navigation
+{
+    background-color:  transparent;
+    position: fixed;
+    padding:10px 20px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navigation img
+{
+    width: 15%;
+}
+.navigation a
+{
+    margin-left: 50px;
+    font-size: 25px;
+    transition: 0.5s color, 0.5s background-color; 
+}
+.navigation a:hover
+{
+    color: palevioletred;
+    background-color: black;
+}
+
+

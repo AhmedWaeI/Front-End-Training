@@ -1,0 +1,36 @@
+body
+{
+    background-image: url('D:/Frontend/chickeninvaders/wallpaperflare.com_wallpaper.jpg');
+
+}
+.rocketcon
+{
+width:10%;
+position: absolute;
+text-align: center;
+bottom: 0%;
+left: 0%;
+transition: left 500ms, bottom 500ms;
+
+}
+
+#rocket
+{
+    width: 100%;
+
+}
+#bullet
+{
+    width: 80%;
+    transform: translateY(-100%) rotate(270deg);
+
+}
+
+.rocketcon .bullett
+{   position: relative;
+    bottom: 0 ;
+    opacity: 0;
+    transition: all 500ms;
+
+
+}
